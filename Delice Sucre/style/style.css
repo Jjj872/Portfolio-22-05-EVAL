@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+
+header {
+    margin: 0;
+}
+
+body {
+    margin: auto;
+}
+
+h1 , h2 , h3 {
+    font-family: 'Prata';
+}
+p{
+    font-family: 'Roboto' ;
+    font-size: 16px;
+}
+
+header nav {
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 10rem;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    padding-right: 70px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header li {
+    list-style-type: none;
+}
+
+                                                                /* MAIN */
+                /* SECTION 1 */
+.section1 h1 {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 78px;
+}
+.section1 {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: auto;
+    gap: 201px;
+}
+.section1parent {
+    padding-bottom: 120px;
+}
+.divimgsection1 {
+    margin: auto;
+    max-width: 1400px;
+}
+.divimgsection1 img {
+    width: 100%;
+    object-fit: cover;
+    height: 380px;
+    border-radius: 12px;
+}
+
+
+
+
+                                                                /* SECTION 2 */
+.section2parent {
+    max-width: 1440px;
+    margin: auto;
+}
+.section2h , .section2p{
+    text-align: center;
+}
+.section2h h2 {
+    font-weight: 400;
+    font-size: 52px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section2h p {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    background-color: #F7F7F7;
+    width: fit-content;
+    padding: 9px;
+    border-radius: 12px;
+
+}
+.section2cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    max-width: 60vw;
+    margin: auto;
+    padding-bottom: 120px;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0 ;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 0px #00000033;
+
+}
+
+.infos p {
+    margin: 0;
+    padding: 8px 10px;
+}
+
+.infos h3 {
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.prix {
+    font-size: 35px;
+    font-family: 'Prata';
+}
+                                                                /* PARTIE 3 */
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1440px;
+    margin: auto;
+    gap: 20px;
+}
+
+.section3 h2 {
+    font-size: 52px;
+    font-weight: 400;
+}
+
+.section3 img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.section3parent {
+    background-color: #00000007;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.ourstory {
+    background-color: lightgray;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 12px;
+}
+.section3text {
+    line-height: 1.6;
+    padding-bottom: 50px;
+}
+
+.section3 a {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 12px;
+    color: whitesmoke;
+    background-color: black;
+    font-family: roboto;
+}
+
+
+/* SECTION 4 */
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 h2 {
+    font-weight: 400;
+    font-size: 52px;
+    margin-bottom: 0px;
+    margin-top: 120px
+}
+.inputarea {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 89%;
+}
+.inputarea input, .inputarea textarea{
+    padding: 8px;
+    resize: none;
+    font-family: 'roboto' ;
+}
+.inputarea button {
+    padding: 8px;
+    background-color:#000000;
+    color: white;
+    font-size: 16px;
+    font-family: 'roboto' ;
+    cursor: pointer;
+}
+.section4 p {
+    padding-bottom: 10px;
+    max-width: 525px;
+}
+
+
+
+
+
+                              
+
+
+                                                                /* FOOTER */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+footer div {
+    display: flex;
+    gap: 40px;
+    padding-right: 20px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto' ;
+}
+footer p {
+    padding-left: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section1 {
+        gap: 80PX;
+        padding: 0 10px;
+    }
+    .divimgsection1 {
+        padding: 0 10px;
+    }
+    .section3 {
+        padding: 0 10px;
+    }
+    .section3 img {
+        object-fit: cover;
+        height: 630px;
+    }
+    .section2cards {
+        gap: 30px;
+        max-width: 90vw;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+        display: block;
+    }
+    header img {
+        object-fit: cover;
+        height: 400px;
+        width: 100%;
+    }
+    header ul {
+        justify-content: center;
+        padding: 0;
+    }
+    .section2cards {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    }
+    .section1 {
+        display: block;
+        padding-left: 10px;
+    }
+    .divimgsection1 {
+        padding: 0 10px;
+    }
+    .section3 {
+        display: block;
+    }
+    /* .section3parent {
+        padding-bottom: 60px;
+    } */
+    .section3 img {
+        padding: 0 10px;
+    }
+    .section3text {
+        padding-bottom: 30px;
+    }
+    .imgpadding {
+        padding: 10px;
+        padding-top: 40px;
+    }
+    .imgpadding img {
+        padding: 0;
+    }
+    .section4 p{
+        padding: 0 10px;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer p {
+        padding-left: 0;
+    }
+}
+    
+
+
+
+
+
+
+
+
