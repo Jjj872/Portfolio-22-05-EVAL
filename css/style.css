@@ -93,7 +93,7 @@ header a {
     font-size: 16px;
     text-decoration: none;
     font-family: 'inter';
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .section1 img {
@@ -101,8 +101,8 @@ header a {
     object-fit: cover;
     border: 5px solid white;
     border-radius: 50%;
-     
 }
+
 .section1 img:hover {
     animation: scale-up-center 0.5s ease forwards;
 }  
@@ -142,12 +142,15 @@ header a {
     }
 }
 .parcours {
-    width: 50%;
+    flex: 1;
     a {
         color : #419D78;
         font-family: 'inter';
         font-weight: 500;
         text-decoration: none;
+    }
+    a:hover {
+        color: #34785D;
     }
 }
 .competences{
@@ -161,10 +164,11 @@ header a {
     display: flex;
     gap: 120px;
     max-width: 1536px;
+    padding: 20px;
     margin: auto;
 }
 .section2div2wrapper {
-    width: 50%;
+    flex: 1;
 }
 
 
@@ -202,11 +206,16 @@ header a {
         text-decoration: none;
         color: white;
         padding: 14px;
+        animation: 0.3s ease;
+    }
+    #projectLinkSection3:hover {
+        background-color: #505265;
     }
 }
 .cards {
     display: flex;
     gap: 120px;
+    padding: 15px;
 }
 .onecard {
     background-color: white;
@@ -237,6 +246,9 @@ header a {
         font-family: 'inter';
         padding-top: 20px;
     }
+    a:hover {
+        color: #34785D;
+    }
 }
 #section3_skills_infos {
     display: flex;
@@ -249,7 +261,7 @@ header a {
     }
 }
 
-                                                                                    /* SECTION 4 */
+                                                                    /* SECTION 4 */
 
 .section4_wrapper {
     padding-top: 70px;
@@ -331,8 +343,9 @@ footer {
     padding: 40px;
 }
 .animation {
-    transition: background 0.3s ease;
+    transition: 0.3s ease;
 }
+
 footer h3 {
     font-size: 24px;
     padding-bottom: 7px;
@@ -346,7 +359,7 @@ footer img {
     height: 40px;
 }
 
-                                                                                    /* MEDIA QUERY */
+                                                                    /* MEDIA QUERY */
 /* TABLET 768PXMIN*/
 @media (min-width: 768px) and (max-width: 1024px) {
     .section1_wrapper{
@@ -358,7 +371,6 @@ footer img {
     .section2 {
         max-width: 768px;
         margin: auto;
-        /* gap: 50px */
     }
     .section2_wrapper {
         gap: 50px;
@@ -382,6 +394,7 @@ footer img {
     }
     .cards {
         gap: 40px;
+        max-width: 768px;
     }
     .onecard {
         width: 69vh;
@@ -426,6 +439,7 @@ footer img {
     .section2_wrapper {
         gap: 0;
         flex-direction: column;
+        padding: 0;
     }
     .parcours {
         margin: auto;
@@ -445,8 +459,8 @@ footer img {
     .section3 {
         margin: auto;
     }
-    .section3_wrapper {
-        padding: 5px;
+    .section3_wrapper p{
+        padding: 0 15px;
     }
     .cards {
         flex-direction: column;
@@ -464,6 +478,5 @@ footer img {
     }
     .container p {
         padding: 5px;
-    }
-    
+    }  
 }

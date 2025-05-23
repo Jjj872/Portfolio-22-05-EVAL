@@ -42,7 +42,7 @@ header a {
     text-decoration: none;
     color: black;
     font-family: 'Inter';
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .headername {
@@ -193,7 +193,7 @@ form {
     }
 }
 .section4 a {
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 
@@ -219,12 +219,19 @@ footer img {
 }
 
 /* RESPONSIVE */
+@media (max-width: 1024px) {
+    .container p {
+        padding: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     header nav {
         display: none;
     }
     .container p {
         text-align: center;
+        
     }
     .section_about {
         flex-direction: column;
