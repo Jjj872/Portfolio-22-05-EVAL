@@ -36,7 +36,7 @@ header ul {
 }
 
 .header_wrapper a:hover {
-  color: #419D78;
+    color: #419D78;
 }
 
 header a {
@@ -171,18 +171,18 @@ header nav {
     display: none;
 }
 
-  .cards {
-    flex-direction: column;
-    align-items: center;
+    .cards {
+        flex-direction: column;
+        align-items: center;
   }
 
-  .onecard {
-    width: 90%;
+    .onecard {
+        width: 90%;
   }
 
-  footer {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
   }
 }

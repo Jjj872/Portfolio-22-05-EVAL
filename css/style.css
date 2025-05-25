@@ -30,25 +30,23 @@ header ul {
 }
 
 .header_wrapper a:hover {
-  color: #419D78;
+    color: #419D78;
 }
 
 header a {
     text-decoration: none;
     color: black;
     font-family: 'inter';
-    transition: color 0.3s ease;
+    transition: 0.3s ease;
 }
 .headername {
     font-size: 24px;
 }
 
-                                                                /* SECTION 1 linear-gradient(90deg, rgba(45, 48, 71, 0.9) 0%, rgba(45, 48, 71, 0.7) 50%, rgba(45, 48, 71, 0) 100%);
-*/
+                                                                /* SECTION 1 */
 .section1 {   
     background-image:linear-gradient(90deg, rgba(45, 48, 71, 0.9) 0%, rgba(45, 48, 71, 0.7) 50%, rgba(45, 48, 71, 0) 100%), 
                      url('../section1img.jpg') ;
-    width: 100%;
     height: 1200px; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -154,7 +152,6 @@ header a {
     }
 }
 .competences{
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px 120px;
@@ -359,7 +356,7 @@ footer img {
     height: 40px;
 }
 
-                                                                    /* MEDIA QUERY */
+                                                                    /* @MEDIA 320px 768px 1024px */
 /* TABLET 768PXMIN*/
 @media (min-width: 768px) and (max-width: 1024px) {
     .section1_wrapper{
@@ -381,9 +378,6 @@ footer img {
     .competences {
         gap:50px 40px;
     }
-    .parcours {
-        width: 50%;
-    }
     .section3 {
         max-width: 768px;
         margin: auto;
@@ -397,7 +391,8 @@ footer img {
         max-width: 768px;
     }
     .onecard {
-        width: 69vh;
+        /* width: 69vh; */
+        flex: 1;
     }
     #section3_skills_infos p {
         padding: 4px;
@@ -443,7 +438,7 @@ footer img {
     }
     .parcours {
         margin: auto;
-        width: 90%;
+        padding: 20px;
     }
     .competences {
         gap: 50px;
@@ -464,10 +459,8 @@ footer img {
     }
     .cards {
         flex-direction: column;
-        max-width: 100%;
     }
     .onecard {
-        max-width: 310px;
         padding: 5px;
     }
     #section3_skills_infos p {
